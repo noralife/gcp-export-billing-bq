@@ -1,0 +1,5 @@
+cron:
+- description: import_billing_data_to_bigquery
+  url: /cron
+  schedule: every day 03:00
+  timezone: Asia/Tokyo

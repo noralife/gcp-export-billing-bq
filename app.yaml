@@ -1,0 +1,13 @@
+runtime: python27
+version: 1
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: cron.app
+  login: admin
+
+libraries:
+- name: ssl
+  version: "latest"

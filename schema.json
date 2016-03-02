@@ -1,0 +1,90 @@
+[{
+    "name": "account_id",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "line_item",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "start_time",
+    "type": "timestamp",
+    "mode": "nullable"
+  },
+  {
+    "name": "end_time",
+    "type": "timestamp",
+    "mode": "nullable"
+  },
+  {
+    "name": "project",
+    "type": "integer",
+    "mode": "nullable"
+  },
+  {
+    "name": "measurement1",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "measurement1_total_consumption",
+    "type": "integer",
+    "mode": "nullable"
+  },
+  {
+    "name": "measurement1_units",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "credit1",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "credit1_amount",
+    "type": "float",
+    "mode": "nullable"
+  },
+  {
+    "name": "credit1_currency",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "cost",
+    "type": "float",
+    "mode": "nullable"
+  },
+  {
+   "name": "currency",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "project_number",
+    "type": "integer",
+    "mode": "nullable"
+  },
+  {
+    "name": "project_id",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "project_name",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "project_labels",
+    "type": "string",
+    "mode": "nullable"
+  },
+  {
+    "name": "description",
+    "type": "string",
+    "mode": "nullable"
+  }]
