@@ -22,8 +22,9 @@ You can deploy App Engine script as follows:
 ```
 $ git clone https://github.com/noralife/gcp-export-billing-bq
 $ cd gcp-export-billing-bq
-$ # Skip when you use existing dataset
+$ # Skip fi you use existing dataset
 $ bq mk --data_location US {dataset}
+$ # Set ACL to access export-billing data from AppEngine
 $ gsutil acl ch -u {project_name}@appspot.gserviceaccount.com:WRITE gs://{bucket_name}/
 $ pip install -t ./lib -r requirements.txt
 $ appcfg.py update . -A {project_name} -V 1 -E BUCKET_NAME:{bucket_name} -E DATASET_ID:{dataset} -E TABLE_HEADER:{table_header} -E PROJECT_ID:{project_id} -E REPORT_HEADER:{report_header}
